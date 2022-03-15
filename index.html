@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" conent="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+              integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <div class="wrapper">
+        <form class="box" action="">
+            <h1>Login</h1>
+<!--user input-->
+            <div class="username">
+                <input type="text" placeholder="Enter Username" id="username">
+                <i class="far fa-envelope"></i>
+            </div>
+<!--password input-->
+            <div class="password">
+                <input type="password" placeholder="Enter Password" id="password">
+                <i class="fas fa-lock-open"></i>
+            </div>
+<!--button-->
+            <button id="btn" type="submit" onclick="validate()">Login</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
